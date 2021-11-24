@@ -22,7 +22,8 @@ for ($i = 0; $i < $v; $i++) {
 }
 echo "--------------------------\n";
 //add new element existing element
-$foods['drinks'] = $foods['drinks'] . ", orange juce";
+// $foods['drinks'] = $foods['drinks'] . ", orange juce";
+$foods['drinks'] .= ", orange juce";
 foreach ($foods as $key => $value) {
     echo $key . " = " . $value . "\n";
 }
